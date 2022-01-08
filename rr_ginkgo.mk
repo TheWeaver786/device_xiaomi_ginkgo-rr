@@ -34,6 +34,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Buildtype
 RR_BUILDTYPE := Milestone
 
+# Launcher
+TARGET_LAUNCHER := lawnchair
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := ginkgo
 PRODUCT_MANUFACTURER := Xiaomi
