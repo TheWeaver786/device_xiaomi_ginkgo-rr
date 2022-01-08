@@ -28,6 +28,12 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 #Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Faceunlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Buildtype
+RR_BUILDTYPE := Milestone
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := ginkgo
 PRODUCT_MANUFACTURER := Xiaomi
