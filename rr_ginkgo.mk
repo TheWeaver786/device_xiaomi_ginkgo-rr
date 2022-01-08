@@ -25,6 +25,9 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 # Inherit from ginkgo device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+#Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := ginkgo
 PRODUCT_MANUFACTURER := Xiaomi
