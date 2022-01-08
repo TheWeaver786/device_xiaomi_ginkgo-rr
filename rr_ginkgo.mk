@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2021 The RROS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common RR stuff
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit from ginkgo device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := ginkgo
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_ginkgo
+PRODUCT_NAME := rr_ginkgo
 PRODUCT_MODEL := Redmi Note 8
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

@@ -1,0 +1,7 @@
+[
+  {   
+    "remote": "github",
+    "repository": "TheWeaver786/device_xiaomi_sm6125-common-rr",
+    "target_path": "device/xiaomi/sm6125-common"
+  }
+]

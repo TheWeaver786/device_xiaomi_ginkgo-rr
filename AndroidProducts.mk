@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2021 The RROS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ginkgo.mk
+    $(LOCAL_DIR)/rr_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ginkgo-user \
-    lineage_ginkgo-userdebug \
-    lineage_ginkgo-eng
+    rr_ginkgo-user \
+    rr_ginkgo-userdebug \
+    rr_ginkgo-eng
