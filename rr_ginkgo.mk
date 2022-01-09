@@ -51,6 +51,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR_PRODUCT_NAME := ginkgo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ginkgo-user 10 QKQ1.200114.002 20.7.9 release-keys "
+    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys"
 
-BUILD_FINGERPRINT := xiaomi/ginkgo/ginkgo:10/QKQ1.200114.002/20.7.9:user/release-keys
+BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
