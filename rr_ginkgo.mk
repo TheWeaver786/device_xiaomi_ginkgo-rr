@@ -34,6 +34,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Buildtype
 RR_BUILDTYPE := Milestone
 
+# RR Wallpapers
+BUILD_RR_WALLPAPERS := true
+
 # Launcher
 TARGET_LAUNCHER := lawnchair
 
